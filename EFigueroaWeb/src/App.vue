@@ -1,17 +1,11 @@
 <script setup>
-
+  import WelcomeItem from '@/components/WelcomeItem.vue'
 </script>
 
 <template>
-  <header>
-    <div class="wrapper">
-      <p> TEST </p>
-    </div>
-  </header>
+  <WelcomeItem></WelcomeItem>
 </template>
 
 <style scoped>
-header {
-  line-height: 1.5;
-}
+
 </style>
