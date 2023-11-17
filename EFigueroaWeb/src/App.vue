@@ -3,6 +3,10 @@
   import ActSixCap from '@/components/ActSixCap.vue'
   import NotFound from '@/components/NotFound.vue'
   import Nav from '@/components/nav.vue'
+  import DrLiz from '@/components/DrLiz.vue'
+  import LawyerLiz from '@/components/LawyerLiz.vue'
+  import DrDepalma from '@/components/DrDepalma.vue'
+  import identity from '@/components/identity.vue'
 
   export default {
     name:'App',
@@ -10,7 +14,11 @@
       WelcomeItem,
       ActSixCap,
       NotFound,
-      Nav
+      Nav,
+      DrLiz,
+      LawyerLiz,
+      DrDepalma,
+      identity
     },
     computed: {
       currentComponent() {
