@@ -1,8 +1,23 @@
 <template> 
-    <layout class="law">
+    <div class="law">
     <h1 class="title"> The Case Against Myself </h1>
-    </layout>
+    <PathReveal></PathReveal>
+     <div class="debatePic">
+        <img src="@/assets/freshDebate.jpg" width="270" height="240" >
+     </div>
+    </div>
 </template>
+
+<script>
+import Nav from '@/components/nav.vue'
+import PathReveal from '@/components/PathReveal.vue'
+export default{
+    name: "LawyerLiz",
+    components:{
+        PathReveal
+    }
+}
+</script>
 <style>
 .title{
    text-align: center;
