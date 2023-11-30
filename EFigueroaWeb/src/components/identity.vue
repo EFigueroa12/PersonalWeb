@@ -21,7 +21,7 @@
         <img class="img" src="@/assets/depalm/jen.jpg" width="200" height="150">
     </div>
     <div class="game">
-        <img class="img" src="@/assets/more/game.jpg" width="250" height="190">
+        <img class="img" src="@/assets/more/game.jpg" width="270" height="190">
     </div>
      <div class="shrek">
         <img class="img" src="@/assets/more/shrek.jpg" width="200" height="190">
@@ -45,10 +45,10 @@
         <img class="img" src="@/assets/more/twilight.jpg" width="200" height="190">
     </div>
     <div class="anna">
-        <img class="img" src="@/assets/depalm/anna.jpg" width="170" height="190">
+        <img class="img" src="@/assets/depalm/anna.jpg" width="200" height="190">
     </div>
     <div class="col">
-        <img class="img" src="@/assets/depalm/rome.jpg" width="200" height="190">
+        <img class="img" src="@/assets/depalm/rome.jpg" width="190" height="200">
     </div>
     <div class="hall">
         <img class="img" src="@/assets/depalm/hall.jpg" width="200" height="190">
@@ -58,6 +58,9 @@
     </div>
     <div class="spain">
         <img class="img" src="@/assets/depalm/spain.jpg" width="170" height="190">
+    </div>
+    <div class="kevin">
+        <img class="img" src="@/assets/more/kevin.jpg" width="170" height="190">
     </div>
   </div>
     
@@ -88,7 +91,7 @@ export default{
     left:1000px; 
     top:-10px;
     z-index:1;
-    animation: fadeIn 7s;
+    animation: fadeIn 5s;
 }
 .fade-in-image2{
   animation: fadeIn 5s;
@@ -98,109 +101,116 @@ export default{
    z-index: 1;
 }
 .eli{
-    animation: fadeIn 8s;
+    animation: fadeIn 7s;
     position:relative; 
     left:0px; 
-    top:300px;
+    top:350px;
 }
 .tech{
-    animation: fadeIn 12s;
+    animation: fadeIn 10s;
     position:relative; 
     left:900px; 
     top:-100px;
 }
 .tech2{
-    animation: fadeIn 13s;
+    animation: fadeIn 10s;
     position:relative; 
     left:600px; 
     top:-130px;
 }
 .jen{
-    animation: fadeIn 16s;
+    animation: fadeIn 15s;
     position:relative; 
     left:240px; 
-    top:-350px;
+    top:-390px;
 }
 .game{
     animation: fadeIn 17s;
     position:relative; 
-    left:170px; 
-    top:-950px;
+    left:150px; 
+    top:-1020px;
 }
 .shrek{
     animation: fadeIn 17s;
     position:relative; 
-    left:70px; 
+    left:55px; 
     top:-950px;
 }
+.kevin{
+    animation: fadeIn 17s;
+    position:relative; 
+    left:-20px; 
+    top:-3300px;
+}
 .annacat{
-    animation: fadeIn 20s;
+    animation: fadeIn 21s;
     position:relative; 
     left:790px; 
     top:-1350px;
 }
 .catemma{
-    animation: fadeIn 20s;
+    animation: fadeIn 21s;
     position:relative; 
-    left:230px; 
-    top:-1280px;
+    left:270px; 
+    top:-1300px;
+    z-index:1;
 }
 .bday{
-    animation: fadeIn 25s;
+    animation: fadeIn 30s;
     position:relative; 
     left:430px; 
     top:-1500px;
 }
 .pump{
-    animation: fadeIn 22s;
+    animation: fadeIn 24s;
     position:relative; 
     left:1000px; 
     top:-1530px;
 }
 .pump2{
-    animation: fadeIn 22s;
+    animation: fadeIn 24s;
     position:relative; 
     left:400px; 
-    top:-1690px;
+    top:-1720px;
 }
 .twilight{
-    animation: fadeIn 19s;
+    animation: fadeIn 26s;
     position:relative; 
-    left:600px; 
+    left:650px; 
     top:-2300px;
 }
 .anna{
-    animation: fadeIn 30s;
+    animation: fadeIn 40s;
     position:relative; 
-    left:400px; 
+    left:450px; 
     top:-2450px;
     z-index:1;
 }
 .san2{
-    animation: fadeIn 32s;
+    animation: fadeIn 45s;
     position:relative; 
-    left:380px; 
+    left:420px; 
     top:-3200px;
 }
 .hall{
-    animation: fadeIn 32s;
+    animation: fadeIn 48s;
     position:relative; 
     left:720px; 
-    top:-2750px;
+    top:-2770px;
     z-index:1;
 }
 .spain{
-    animation: fadeIn 34s;
+    animation: fadeIn 52s;
     position:relative; 
-    left:-30px; 
-    top:-3120px;
+    left:250px; 
+    top:-3220px;
     z-index:1;
 }
 .col{
-    animation: fadeIn 34s;
+    animation: fadeIn 55s;
     position:relative; 
     left:840px; 
-    top:-2300px;
+    top:-2310px;
     z-index:1;
 }
 @keyframes fadeIn {
