@@ -62,16 +62,20 @@
     <div class="kevin">
         <img class="img" src="@/assets/more/kevin.jpg" width="170" height="190">
     </div>
+    <div>
+        <a class="butt" href="/EndFinish"> Does it end here? </a></div>
   </div>
     
 </template>
  <script>
 import Nav from '@/components/nav.vue'
 import PathReveal from '@/components/PathReveal.vue'
+import EndFinish from '@/components/EndFinish.vue'
 export default{
     name: "identity",
     components:{
-        PathReveal
+        PathReveal,
+        EndFinish
     }
 }
 </script>
@@ -79,6 +83,30 @@ export default{
 .title{
    text-align: center;
    color: black;
+}
+.id .butt{
+    animation: fadeInButton 70s;
+    position:relative; 
+    left:320px; 
+    top:-3470px;
+    z-index:1;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 60px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #3498db; /* Border color */
+    color: white; /* Text color */
+    background-color: #3498db; /* Background color 3498db */
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+/* Hover effect */
+.id .butt:hover {
+  background-color: #2980b9; /* Darker background color on hover */
+  border-color: #2980b9; /* Darker border color on hover */
+  color: #fff; /* Text color on hover */
 }
 .id {
     width: 2000px;
@@ -216,6 +244,11 @@ export default{
 @keyframes fadeIn {
     0% { opacity:0; }
     85% { opacity:0; }
+    100% { opacity:1; }
+}
+@keyframes fadeInButton {
+    0% { opacity:0; }
+    95% { opacity:0; }
     100% { opacity:1; }
 }
 

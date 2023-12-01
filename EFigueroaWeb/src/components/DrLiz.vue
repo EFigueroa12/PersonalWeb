@@ -1,21 +1,20 @@
 <template> 
-    <div class="doc">
-     Drliz 
+    <div class="doc"> 
      <PathReveal></PathReveal>
      <div class="pour">
          <button @click="incrementCount" class="butt"> Pour </button>
          <div class="flasks">
          <div class="flask1" v-if="count == 1">
-               <img src="@/assets/emptyFlask.jpg" width="200" height="250" >
+               <img src="@/assets/emptyFlask.jpg" width="180" height="210" >
          </div>
          <div class="flask2" v-if="count == 2">
-               <img src="@/assets/firstflask.jpg" width="230" height="230" >
+               <img src="@/assets/first.jpg" width="250" height="240" >
          </div>
          <div class="flask3" v-if="count == 3">
-               <img src="@/assets/halfflask.jpg" width="200" height="250" >
+               <img src="@/assets/half.jpg" width="250" height="245" >
          </div>
          <div class="flask4" v-if="count == 4">
-               <img src="@/assets/full.jpg" width="250" height="270" >
+               <img src="@/assets/fullFlask.jpg" width="250" height="250" >
          </div>
          </div>
      </div>
@@ -130,8 +129,8 @@ export default{
 }
 .pour{
    position:relative; 
-    left:520px; 
-    top:150px;
+    left:550px; 
+    top:180px;
 }
 .pour .butt{
    position:relative; 
@@ -140,10 +139,19 @@ export default{
 }
 .pour .flask2{
    position:relative;
+   left: -0.8%;
+}
+.pour .flask3{
+   position:relative;
    left: -1%;
 }
 .pour .flask4{
    position:relative;
    left: -1%;
+}
+.pour .flask1{
+    position:relative;
+    left: 0.5%;
+    top: -100%;
 }
 </style>

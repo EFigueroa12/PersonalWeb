@@ -1,5 +1,6 @@
 <template> 
     <div class="com">
+    <PathReveal></PathReveal>
     <h1 class="title"> The Computation of Liz </h1>
     <div class="question">
         <h1 class="label"> cout >> Do You Like Math? </h1><br>
@@ -16,7 +17,7 @@
     </div>
     <div class="response">
     </div>
-    <PathReveal></PathReveal>
+    
     </div>
  </template>
  <script>

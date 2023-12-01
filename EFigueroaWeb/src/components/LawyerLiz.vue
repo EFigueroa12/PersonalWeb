@@ -1,10 +1,8 @@
 <template> 
     <div class="law">
-    <h1 class="title"> The Case Against Myself </h1>
     <PathReveal></PathReveal>
-     <div class="debatePic">
-        <img src="@/assets/freshDebate.jpg" width="270" height="240" >
-     </div>
+    <h1 class="title"> The Case Against Myself </h1>
+    
     </div>
 </template>
 
@@ -19,13 +17,17 @@ export default{
 }
 </script>
 <style>
-.title{
-   text-align: center;
+.law .title{
+    position:relative;
+    left: -38%;
+    top: 11%;
+    color: black;
+    font-family: Cormorant Garamond;
 }
 .law {
-    width: 2000px;
+    width: 2100px;
     height:2000px;
     background-image: url('@/assets/lawyer.jpg');
-    background-size: 1300px;
+    background-size: 1250px;
 }
 </style>

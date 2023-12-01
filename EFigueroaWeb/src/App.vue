@@ -7,6 +7,7 @@
   import LawyerLiz from '@/components/LawyerLiz.vue'
   import DrDepalma from '@/components/DrDepalma.vue'
   import identity from '@/components/identity.vue'
+  import EndFinish from '@/components/EndFinish.vue'
 
   export default {
     name:'App',
@@ -18,7 +19,8 @@
       DrLiz,
       LawyerLiz,
       DrDepalma,
-      identity
+      identity,
+      EndFinish
     },
     computed: {
       currentComponent() {
