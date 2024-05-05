@@ -8,10 +8,6 @@
 
 <script>
   import nav from '@/components/nav.vue'
-  // import DrLiz from '@/components/DrLiz.vue'
-  // import LawyerLiz from '@/components/LawyerLiz.vue'
-  // import DrDepalma from '@/components/DrDepalma.vue'
-  // import identity from '@/components/identity.vue'
   import PathReveal from '@/components/PathReveal.vue'
   import EndFinish from '@/components/EndFinish.vue'
 
@@ -23,7 +19,6 @@
   }
 </script>
 
-
 <style>
 .twobtn, .threebtn, .fourbtn{
    opacity: 1;
@@ -31,6 +26,4 @@
 .checker{
   display:none;
 }
-
-
 </style>

@@ -8,14 +8,11 @@
 <script>
 import Nav from '@/components/nav.vue'
 import PathReveal from '@/components/PathReveal.vue'
-import GraphTest from '@/components/GraphTest.vue'
-
 
 export default{
     name: "LawyerLiz",
     components:{
-        PathReveal,
-        GraphTest
+        PathReveal
     }
 }
 </script>

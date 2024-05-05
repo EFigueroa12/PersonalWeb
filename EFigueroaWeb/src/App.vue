@@ -36,6 +36,3 @@
   <component :is="currentComponent"></component>
 </template>
 
-<style scoped>
-
-</style>

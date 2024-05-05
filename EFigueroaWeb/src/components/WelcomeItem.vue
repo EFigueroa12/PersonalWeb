@@ -15,7 +15,6 @@
 <script>
 import ActSixCap from '@/components/ActSixCap.vue'
 import nav from '@/components/nav.vue'
-
 </script>
 
 <style scoped>
@@ -35,7 +34,4 @@ import nav from '@/components/nav.vue'
   color: white; /* white color */
   cursor: pointer; /* Add a pointer cursor on hover */
 }
-
-
-
 </style>

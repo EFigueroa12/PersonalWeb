@@ -1,10 +1,5 @@
-<template>
-    
-</template>
   
 <script>
-
-
 export default {
     name: 'App',
     computed: {
@@ -15,8 +10,3 @@ export default {
     }
 }
 </script>
-
-<style>
-
-
-</style>
