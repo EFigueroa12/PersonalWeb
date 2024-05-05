@@ -7,7 +7,7 @@
     <a class="btn" href="https://gonzagau-my.sharepoint.com/:w:/r/personal/efigueroa_zagmail_gonzaga_edu/Documents/Documents/collegeyr3/spring2023/philtech/Sex%20Work%20in%20Technology%20Presentation%20Outline.docx?d=w09b7c89bf7fd44d3aec84c083e73a6b5&csf=1&web=1&e=yw5QTe" target="_blank"> Honors Thesis </a>
   </div>
   <div class="highschoolPic">
-    <img src="@/assets/babyLiz.jpg" width="200" height="350" alt="whatsgoingon">
+    <img src="@/assets/babyLiz.jpg" width="200" height="350" alt="n">
   </div>
   
 </template>

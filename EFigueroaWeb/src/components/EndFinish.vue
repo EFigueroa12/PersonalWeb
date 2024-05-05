@@ -11,7 +11,7 @@
     
 }
 .msg{
-    animation: fadeIn 15s;
+    animation: fadeIn 23s;
     font-family: Cormorant Garamond;
 }
 @keyframes fadeInButton {

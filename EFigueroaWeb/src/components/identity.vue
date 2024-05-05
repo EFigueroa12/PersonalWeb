@@ -135,13 +135,13 @@ export default{
     top:350px;
 }
 .tech{
-    animation: fadeIn 10s;
+    animation: fadeIn 12s;
     position:relative; 
     left:900px; 
     top:-100px;
 }
 .tech2{
-    animation: fadeIn 10s;
+    animation: fadeIn 12s;
     position:relative; 
     left:600px; 
     top:-130px;

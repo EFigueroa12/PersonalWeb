@@ -3,13 +3,13 @@
     <PathReveal></PathReveal>
     <h1 class="title"> The Computation of Liz </h1>
     <div class="question">
-        <h1 class="label"> cout >> Do You Like Math? </h1><br>
+        <h1 class="label"> Do You Like Math? </h1><br>
         <div class="in">
             <button class="butt" @click="popUpHello"> Yes </button>
             <button class="butt" @click="popUpBook"> No </button>
         </div>
         <div v-if="show" class="helloW"> 
-            <img src="@/assets/depalm/helloWorld.jpg" width="250" height="240" >
+            <img src="@/assets/depalm/helloWorld.jpg" width="300" height="250" >
         </div>
         <div v-if="book" class="shelf">
             <img src="@/assets/depalm/book.jpg" width="300" height="340" >

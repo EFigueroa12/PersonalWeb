@@ -90,7 +90,7 @@ export default{
 }
 .last .labPic{
    position:absolute; 
-   left:700px; 
+   left:750px; 
    top:50px;
    z-index: 1;
 }
