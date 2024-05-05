@@ -1,7 +1,6 @@
 <template>
   <div class="id">
     <h1 class="title">Identity</h1>
-    <PathReveal></PathReveal>
     <div class="fade-in-image">
         <img class="img" src="@/assets/depalm/sorority.jpg" width="250" height="250">
     </div> 
@@ -69,12 +68,10 @@
 </template>
  <script>
 import Nav from '@/components/nav.vue'
-import PathReveal from '@/components/PathReveal.vue'
 import EndFinish from '@/components/EndFinish.vue'
 export default{
     name: "identity",
     components:{
-        PathReveal,
         EndFinish
     }
 }
